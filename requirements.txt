@@ -1,0 +1,8 @@
+tqdm
+scipy
+pyflame
+ipympl
+ffmpeg-python
+torch
+matplotlib
+
