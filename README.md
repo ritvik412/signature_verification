@@ -28,25 +28,22 @@ Each file should follow the format:
 
 ## 🔧 *Installation & Setup*
 
-# Clone the repo
+Clone the repo
+```bash
 git clone https://github.com/ritvik412/signature-verification.git
 cd signature-verification
-
-# Create and activate a virtual environment
+```
+Create and activate a virtual environment:
+```bash
 python -m venv .venv
-# On Linux/macOS:
-source .venv/bin/activate
-# On Windows PowerShell:
-.\.venv\Scripts\Activate.ps1
-
-# Upgrade packaging tools
+source .venv/bin/activate      # on Linux/macOS
+.\.venv\Scripts\Activate.ps1   # on Windows PowerShell
+```
+Install dependencies:
+```bash
 pip install --upgrade pip setuptools wheel
-
-# Install required Python packages
 pip install -r requirements.txt
-
-# Install local sigma-lognormal library
-pip install -e ./sigma_lognormal
-
+pip install -e ./sigma_lognormal   # install the local library 
+```
 ## 📖 *Usage*
 Launch the Jupyter notebook: demo.ipynb
